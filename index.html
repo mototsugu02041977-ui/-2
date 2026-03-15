@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>株式会社ヴィレッジ | 北九州市の解体工事・遺品整理</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;700;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Noto Sans JP"', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: '#003366', // 深みのあるブルー
+                        accent: '#38bdf8', // 明るいブルーをアクセントに
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Noto Sans JP', sans-serif; letter-spacing: 0.05em; }
+        .thin-border { border-width: 0.5px; }
+    </style>
+</head>
+<body class="bg-white text-brand antialiased">
+
+    <!-- Header -->
+    <header class="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex justify-between items-center">
+            <!-- Logo: 株式会社ヴィレッジ -->
+            <a href="#" class="flex items-center gap-3">
+                <div class="w-8 h-8 bg-brand flex items-center justify-center text-white font-bold italic rounded">V</div>
+                <span class="text-lg md:text-xl font-black tracking-tight text-brand">株式会社ヴィレッジ</span>
+            </a>
+            <nav class="hidden md:flex gap-10 text-[11px] font-bold tracking-[0.2em] uppercase">
+                <a href="#demolition" class="hover:text-accent transition">Demolition</a>
+                <a href="#cleaning" class="hover:text-accent transition">Cleaning</a>
+                <a href="#company" class="hover:text-accent transition">Company</a>
+                <a href="#contact" class="px-4 py-2 border border-brand hover:bg-brand hover:text-white transition">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="pt-40 pb-32 px-6">
+        <div class="max-w-6xl mx-auto">
+            <p class="text-[10px] font-black tracking-[0.4em] mb-6 text-gray-400 uppercase">Trust and Quality</p>
+            <h1 class="text-4xl md:text-7xl font-black leading-[1.2] mb-12 tracking-tighter text-brand">
+                解体工事を通じて、<br>未来のかけ橋に。
+            </h1>
+            
+            <!-- 強調されたリードテキスト -->
+            <div class="relative pl-6 border-l-4 border-brand bg-gray-50 py-8 px-8 rounded-r-xl max-w-3xl">
+                <p class="text-brand text-lg md:text-2xl font-bold leading-relaxed mb-2">
+                    北九州市を拠点に、解体工事から遺品整理まで。
+                </p>
+                <p class="text-gray-600 text-base md:text-xl font-medium leading-relaxed">
+                    プロフェッショナルな技術で、誠実に次世代へつなぎます。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Demolition -->
+    <section id="demolition" class="py-24 border-t border-gray-100">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row gap-16">
+                <div class="md:w-1/3">
+                    <h2 class="text-2xl font-black mb-4">解体工事</h2>
+                    <p class="text-xs text-gray-400 font-bold tracking-widest mb-8 uppercase">Demolition Work</p>
+                    <div class="text-sm leading-loose text-gray-600 space-y-4">
+                        <p>一級土木施工管理技士による徹底した安全・品質管理。木造住宅から商業ビルまで対応可能です。</p>
+                    </div>
+                </div>
+                <div class="md:w-2/3">
+                    <div class="border border-gray-200 rounded-lg overflow-hidden">
+                        <table class="w-full text-left text-xs md:text-sm">
+                            <tbody class="divide-y divide-gray-100">
+                                <tr>
+                                    <td class="py-5 px-6 font-bold bg-gray-50/50 w-1/2 text-brand">木造住宅</td>
+                                    <td class="py-5 px-6 font-medium text-right text-brand">¥40,000〜 <span class="text-[10px] text-gray-400">/ 坪</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="py-5 px-6 font-bold bg-gray-50/50 text-brand">鉄骨造店舗・工場</td>
+                                    <td class="py-5 px-6 font-medium text-right">¥35,000〜 <span class="text-[10px] text-gray-400">/ 坪</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="py-5 px-6 font-bold bg-gray-50/50 text-brand">RC造ビル・マンション</td>
+                                    <td class="py-5 px-6 font-medium text-right">¥45,000〜 <span class="text-[10px] text-gray-400">/ 坪</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- 強調されたメッセージ -->
+                    <div class="mt-6 flex items-center gap-3 bg-accent/5 p-4 rounded-lg border border-accent/20">
+                        <i class="fa-solid fa-circle-check text-accent text-lg"></i>
+                        <p class="text-xs md:text-sm font-bold text-brand leading-relaxed">
+                            現地調査に基づき、正確なお見積りを<span class="text-accent underline decoration-2 underline-offset-4">無料</span>で作成いたします。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Cleaning -->
+    <section id="cleaning" class="py-24 bg-brand text-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row gap-16">
+                <div class="md:w-1/3">
+                    <h2 class="text-2xl font-black mb-4 text-accent">遺品整理</h2>
+                    <p class="text-xs text-blue-300/50 font-bold tracking-widest mb-8 uppercase">Cleaning Service</p>
+                    <p class="text-sm leading-loose text-blue-100/70">
+                        解体前のお片付けや遺品整理。想いに寄り添い、一点一点丁寧に仕分けを行います。
+                    </p>
+                </div>
+                <div class="md:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-8">
+                    <div class="border-l border-white/10 pl-6 py-2">
+                        <h4 class="font-bold mb-2 text-white">一貫対応</h4>
+                        <p class="text-[11px] text-blue-100/60 leading-relaxed">整理から解体まで窓口を一本化。コストと手間の負担を軽減します。</p>
+                    </div>
+                    <div class="border-l border-white/10 pl-6 py-2">
+                        <h4 class="font-bold mb-2 text-white">法令遵守</h4>
+                        <p class="text-[11px] text-blue-100/60 leading-relaxed">不用品の適正な処分をお約束。トラブルのない安心のサービス。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Company -->
+    <section id="company" class="py-24">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-20">
+                <div>
+                    <h2 class="text-2xl font-black mb-12 text-brand">会社概要</h2>
+                    <dl class="text-sm space-y-6">
+                        <div class="flex border-b border-gray-100 pb-4">
+                            <dt class="w-32 text-gray-400 font-bold">社名</dt>
+                            <dd class="font-bold text-brand">株式会社ヴィレッジ</dd>
+                        </div>
+                        <div class="flex border-b border-gray-100 pb-4">
+                            <dt class="w-32 text-gray-400 font-bold">所在地</dt>
+                            <dd class="font-medium text-xs leading-relaxed">〒800-0042 福岡県北九州市門司区上馬寄1-8-1-1203</dd>
+                        </div>
+                        <div class="flex border-b border-gray-100 pb-4">
+                            <dt class="w-32 text-gray-400 font-bold">資格</dt>
+                            <dd class="font-medium text-xs">一級土木施工管理技士 / 福岡県知事 第1456号</dd>
+                        </div>
+                    </dl>
+                </div>
+                <div class="flex items-center justify-center p-12 bg-blue-50/50 rounded-2xl">
+                    <div class="text-center">
+                        <i class="fa-solid fa-medal text-4xl mb-6 text-accent/40"></i>
+                        <p class="text-xs font-bold text-brand/70 leading-relaxed">
+                            確かな国家資格に基づいた<br>
+                            責任ある施工をお届けします。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact" class="bg-gray-50 pt-24 pb-12">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-black mb-12 text-brand">お問い合わせ</h2>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-10 mb-24">
+                <a href="tel:090-9566-9563" class="text-2xl md:text-4xl font-black text-brand hover:text-accent transition underline decoration-1 underline-offset-8">
+                    090-9566-9563
+                </a>
+                <a href="mailto:village2024@outlook.jp" class="text-sm font-bold text-brand border-b border-brand pb-1 hover:text-accent hover:border-accent transition">
+                    village2024@outlook.jp
+                </a>
+            </div>
+            <div class="pt-12 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center gap-6">
+                <p class="text-[9px] font-black text-gray-400 uppercase tracking-widest">&copy; Village Co., Ltd. All Rights Reserved.</p>
+                <div class="flex gap-8 text-[10px] font-bold text-gray-400 uppercase tracking-tighter">
+                    <span>Kitakyushu</span>
+                    <span>Moji</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
